@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		451870C92681E4E800C844FF /* gletscherpanorama_injected.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 451870C82681E4DB00C844FF /* gletscherpanorama_injected.mp4 */; };
 		C446D20B1CD786B5005C805E /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = C446D2081CD786B5005C805E /* arrows.png */; };
 		C446D20C1CD786B5005C805E /* cardboardOff.png in Resources */ = {isa = PBXBuildFile; fileRef = C446D2091CD786B5005C805E /* cardboardOff.png */; };
 		C446D20D1CD786B5005C805E /* cardboardOn.png in Resources */ = {isa = PBXBuildFile; fileRef = C446D20A1CD786B5005C805E /* cardboardOn.png */; };
@@ -19,13 +20,6 @@
 		C4AC3E031C3AA7EE009D7CB3 /* simple360playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC3E021C3AA7EE009D7CB3 /* simple360playerTests.swift */; };
 		C4AC3E0E1C3AA7EE009D7CB3 /* simple360playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC3E0D1C3AA7EE009D7CB3 /* simple360playerUITests.swift */; };
 		C4AC3E1D1C3AAC29009D7CB3 /* vr.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C4AC3E1C1C3AAC29009D7CB3 /* vr.mp4 */; };
-		C4AC3E211C3AAF9E009D7CB3 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E201C3AAF9E009D7CB3 /* SceneKit.framework */; };
-		C4AC3E231C3AAFA6009D7CB3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E221C3AAFA6009D7CB3 /* CoreMotion.framework */; };
-		C4AC3E251C3AAFC1009D7CB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E241C3AAFC1009D7CB3 /* CoreGraphics.framework */; };
-		C4AC3E271C3AAFC7009D7CB3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E261C3AAFC7009D7CB3 /* CoreAudio.framework */; };
-		C4AC3E291C3AAFCE009D7CB3 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E281C3AAFCE009D7CB3 /* CoreAudioKit.framework */; };
-		C4AC3E2B1C3AAFD6009D7CB3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E2A1C3AAFD6009D7CB3 /* AVFoundation.framework */; };
-		C4AC3E2D1C3AB42C009D7CB3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC3E2C1C3AB42C009D7CB3 /* CoreVideo.framework */; };
 		C4BB2B761C5A54A000DFEB15 /* play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BB2B751C5A54A000DFEB15 /* play@3x.png */; };
 		C4BB2B781C5A54A700DFEB15 /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4BB2B771C5A54A700DFEB15 /* pause@3x.png */; };
 /* End PBXBuildFile section */
@@ -48,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451870C82681E4DB00C844FF /* gletscherpanorama_injected.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gletscherpanorama_injected.mp4; sourceTree = "<group>"; };
 		C446D2081CD786B5005C805E /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
 		C446D2091CD786B5005C805E /* cardboardOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardboardOff.png; sourceTree = "<group>"; };
 		C446D20A1CD786B5005C805E /* cardboardOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardboardOn.png; sourceTree = "<group>"; };
@@ -66,13 +61,6 @@
 		C4AC3E0D1C3AA7EE009D7CB3 /* simple360playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple360playerUITests.swift; sourceTree = "<group>"; };
 		C4AC3E0F1C3AA7EE009D7CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AC3E1C1C3AAC29009D7CB3 /* vr.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vr.mp4; sourceTree = "<group>"; };
-		C4AC3E201C3AAF9E009D7CB3 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
-		C4AC3E221C3AAFA6009D7CB3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		C4AC3E241C3AAFC1009D7CB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C4AC3E261C3AAFC7009D7CB3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		C4AC3E281C3AAFCE009D7CB3 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
-		C4AC3E2A1C3AAFD6009D7CB3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C4AC3E2C1C3AB42C009D7CB3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		C4BB2B751C5A54A000DFEB15 /* play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@3x.png"; sourceTree = "<group>"; };
 		C4BB2B771C5A54A700DFEB15 /* pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,13 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AC3E2D1C3AB42C009D7CB3 /* CoreVideo.framework in Frameworks */,
-				C4AC3E2B1C3AAFD6009D7CB3 /* AVFoundation.framework in Frameworks */,
-				C4AC3E291C3AAFCE009D7CB3 /* CoreAudioKit.framework in Frameworks */,
-				C4AC3E271C3AAFC7009D7CB3 /* CoreAudio.framework in Frameworks */,
-				C4AC3E251C3AAFC1009D7CB3 /* CoreGraphics.framework in Frameworks */,
-				C4AC3E231C3AAFA6009D7CB3 /* CoreMotion.framework in Frameworks */,
-				C4AC3E211C3AAF9E009D7CB3 /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,13 +93,6 @@
 		C4AC3DE11C3AA7EE009D7CB3 = {
 			isa = PBXGroup;
 			children = (
-				C4AC3E2C1C3AB42C009D7CB3 /* CoreVideo.framework */,
-				C4AC3E2A1C3AAFD6009D7CB3 /* AVFoundation.framework */,
-				C4AC3E281C3AAFCE009D7CB3 /* CoreAudioKit.framework */,
-				C4AC3E261C3AAFC7009D7CB3 /* CoreAudio.framework */,
-				C4AC3E241C3AAFC1009D7CB3 /* CoreGraphics.framework */,
-				C4AC3E221C3AAFA6009D7CB3 /* CoreMotion.framework */,
-				C4AC3E201C3AAF9E009D7CB3 /* SceneKit.framework */,
 				C4AC3DEC1C3AA7EE009D7CB3 /* simple360player */,
 				C4AC3E011C3AA7EE009D7CB3 /* simple360playerTests */,
 				C4AC3E0C1C3AA7EE009D7CB3 /* simple360playerUITests */,
@@ -145,6 +119,7 @@
 				C4AC3DF11C3AA7EE009D7CB3 /* Main.storyboard */,
 				C4AC3DF41C3AA7EE009D7CB3 /* Assets.xcassets */,
 				C4AC3DF61C3AA7EE009D7CB3 /* LaunchScreen.storyboard */,
+				451870C82681E4DB00C844FF /* gletscherpanorama_injected.mp4 */,
 				C4AC3DF91C3AA7EE009D7CB3 /* Info.plist */,
 			);
 			path = simple360player;
@@ -299,6 +274,7 @@
 				C4AC3DF51C3AA7EE009D7CB3 /* Assets.xcassets in Resources */,
 				C446D20B1CD786B5005C805E /* arrows.png in Resources */,
 				C446D20D1CD786B5005C805E /* cardboardOn.png in Resources */,
+				451870C92681E4E800C844FF /* gletscherpanorama_injected.mp4 in Resources */,
 				C4BB2B761C5A54A000DFEB15 /* play@3x.png in Resources */,
 				C446D20F1CD786BC005C805E /* vr_stereo.mp4 in Resources */,
 				C4BB2B781C5A54A700DFEB15 /* pause@3x.png in Resources */,

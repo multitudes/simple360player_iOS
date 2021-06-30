@@ -237,7 +237,8 @@ class ViewController: UIViewController, SCNSceneRendererDelegate, UIGestureRecog
         //In case you want to stream from internet, works with compatible AVPlayer media files like mp4 and HLS (.m3u8)
         //let fileURL: NSURL? = NSURL(string: "http://www.kolor.com/360-videos-files/noa-neal-graffiti-360-music-video-full-hd.mp4")
         
-        var videoName = "vr"
+        var videoName = "gletscherpanorama_injected"
+		//During filming, stereoscopic VR utilises 2 lenses for each angle as apposed to 1. The 2 lenses represent the human eyes and they capture similar information. ... Using the VR Camera to mimic human eye positions, stereoscopic VR creates a sense of 3D depth in 360 videos, with objects appearing nearer or further away.
         if true == activateStereoscopicVideo {
             videoName = "vr_stereo"
         }
